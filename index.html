@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clinic leak calculator | Ganesh Datta</title>
+  <meta name="description" content="How much revenue a clinic loses each month to unanswered enquiries and unrebooked no-shows. A free, embeddable calculator.">
+  <link rel="canonical" href="https://ganeshdatta96.github.io/clinic-leak-calculator/">
+  <style>
+    body { margin: 0; background: #080907; color: #efe8dc; font-family: Outfit, "Segoe UI", system-ui, sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 20px; }
+    h1 { font-family: Fraunces, Georgia, serif; font-weight: 520; letter-spacing: -0.03em; }
+    p, li { color: #d9d1c4; line-height: 1.6; }
+    a { color: #d6ff4a; }
+    pre { background: #10120e; border: 1px solid rgba(239,232,220,.14); border-radius: 10px; padding: 14px; overflow-x: auto; color: #efe8dc; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>How much is your clinic leaking each month?</h1>
+    <p>Change the numbers to yours. Two leaks: enquiries nobody answered within an hour, and no-shows nobody rebooked.</p>
+    <clinic-leak-calculator></clinic-leak-calculator>
+    <h2>Put it on your own site</h2>
+    <pre><code>&lt;script src="https://ganeshdatta96.github.io/clinic-leak-calculator/leak.js" defer&gt;&lt;/script&gt;
+&lt;clinic-leak-calculator&gt;&lt;/clinic-leak-calculator&gt;</code></pre>
+    <p>Free under the MIT license. Source and options on <a href="https://github.com/GaneshDatta96/clinic-leak-calculator">GitHub</a>.</p>
+    <p>Want the leak fixed rather than measured? <a href="https://ganeshdatta.me/contact/">Book a 15-minute call</a>.</p>
+  </main>
+  <script src="leak.js"></script>
+</body>
+</html>
